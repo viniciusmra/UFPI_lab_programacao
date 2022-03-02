@@ -7,3 +7,4 @@ void main(){
     scanf("%d", &a);
     printf("%d", a);
 }
+//teste
