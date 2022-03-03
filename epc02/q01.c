@@ -4,6 +4,8 @@
     Autor: Vinícius Alves de Moura - viniciusmra@gmail.com
     Data: 02/03/2022
     EPC02 - QUESTÃO 01
+
+    Preencher um vetor com os números de 0 a 12, e depois mostrar os elementos ímpares do vetor de trás para frente.
 */
 
 #include <stdio.h>
