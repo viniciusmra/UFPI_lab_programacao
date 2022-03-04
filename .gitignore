@@ -1,1 +1,3 @@
+#ignorar arquivos executáveis dos programas em C
 *.exe
+*.zip
