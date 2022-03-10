@@ -5,6 +5,7 @@
 
         Faça um algoritmo para calcular e exibir as n primeiras parcelas da  sequência: 
         2 4 6 8 10 ... 
+        
  */
 
 #include <stdio.h>
