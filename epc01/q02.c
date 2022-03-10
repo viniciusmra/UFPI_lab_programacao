@@ -2,6 +2,9 @@
         Vinícius Alves de Moura - viniciusmra@gmail.com - 22/02/2022
         Ciência da computação UFPI - Lab. de Programação
         EPC01 - Q2
+
+        Faça um algoritmo para calcular e exibir as n primeiras parcelas da  sequência: 
+        2 4 6 8 10 ... 
  */
 
 #include <stdio.h>

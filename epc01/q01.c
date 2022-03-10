@@ -2,6 +2,9 @@
         Vinícius Alves de Moura - viniciusmra@gmail.com - 22/02/2022
         Ciência da computação UFPI - Lab. de Programação
         EPC01 - Q1
+
+        Elabore um algoritmo para calcular e exibir a média individual de n alunos. 
+        Considerar que cada aluno possui duas notas a e b e que a  quantidade de alunos e as notas de cada aluno devem ser fornecidas pelo  usuário. 
  */
 
 #include <stdio.h>
