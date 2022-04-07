@@ -12,6 +12,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Função que verifica se o número sorteado ja está no array
 int checkRepetido(int n, int nun[]){
     for(int i = 0; i < 6; i++){
         if(nun[i] == n){
@@ -23,15 +24,17 @@ int checkRepetido(int n, int nun[]){
 
 void main(){
     int n, sort;
-    
     srand(time(0));
-
     scanf("%d", &n);
     
+    // Primeiro laço se repete N vezes, gerando as N combinações do sorteio
     for(int i = 0; i < n; i++){
         int numeros[] = {0,0,0,0,0,0};
         printf("%d - ", i+1);
+
+        // O segundo laço gera os 6 números do sorteio
         for(int j = 0; j < 6; j++){
+            // O laço while roda enquanto não é sorteado um número que ainda não foi sorteado.
             while(1){
                 sort = (rand() % 60) + 1;
                 if(checkRepetido(sort,numeros)){
@@ -41,10 +44,6 @@ void main(){
                 }
             }
         }
-        
         printf("\n");
-
     }
-
-    
 }
